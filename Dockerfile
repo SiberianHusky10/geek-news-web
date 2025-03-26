@@ -1,5 +1,5 @@
 FROM node:lts-alpine AS build-stage
-nginx
+
 LABEL maintainer="husky"
 
 WORKDIR /project/geek-news-web
